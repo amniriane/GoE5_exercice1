@@ -23,7 +23,7 @@ func main() {
 	// Connexion à Redis
 	redisClient = redis.NewClient(&redis.Options{
 		Addr:     "localhost:6379", // Adresse de votre instance Redis
-		Password: "",               // Mot de passe Redis (si requis)
+		Password: "",               // Mot de passe Redis
 		DB:       0,                // Numéro de la base de données Redis à utiliser
 	})
 
